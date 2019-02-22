@@ -167,6 +167,7 @@ a {
   color: black;
   padding: 0 10px;
   margin: 0 10px;
+
 }
 
 img {
@@ -179,4 +180,7 @@ main{
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-content: flex-start;
+}
+a:hover {
+  color: grey;
 }
