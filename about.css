@@ -157,8 +157,7 @@ footer nav a {
 }
 header {
   display: flex;
-  justify-content: space-between;
-	align-items: center;
+  align-items: baseline;
 
 }
 section {
@@ -174,10 +173,6 @@ a {
 
 }
 
-img {
-  padding: 10px 0;
-  margin:  10px 0;
-}
 main{
 	display: flex;
 	justify-content: space-between;
@@ -194,4 +189,15 @@ button {
   border: 1px solid black;
   border-radius: 5px;
   background-color: white;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+
+}
+
+div .top {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
