@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5 {
 
 p {
   line-height: 1.4;
+  margin-bottom: 10px;
 }
 
 .container {
@@ -150,7 +151,10 @@ footer nav a {
   text-decoration: none;
 }
 
-/*this is my code */
+.border {
+  border-bottom: 1px dotted black;
+  padding-bottom: 10px;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -180,7 +184,14 @@ main{
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-content: flex-start;
+  padding-bottom: 20px;
 }
 a:hover {
   color: grey;
+}
+button {
+  padding: 7px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
 }
